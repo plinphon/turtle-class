@@ -10,10 +10,8 @@ def convert(color):
 
 t = Turtle()
 
-colors = colorgram.extract('color.png',28)
-colors.pop(0)
-colors.pop(0)
-colors.pop(1)
+colors = colorgram.extract('color.png',25)
+
 
 print(colors)
 
